@@ -1,0 +1,40 @@
+.base {
+	--primary-color: #231815;
+	--primary-color--hover: #795347;
+
+	--secondary-color: #ffffff;
+	--secondary-color--hover: #d1d1d1;
+
+	--third-color: #f5f5f5;
+	--third-color--hover: #929292;
+
+	--accent-color: #e45302;
+	--accent-color--hover: #e45302;
+
+	--minor-color: #808080;
+	--minor-color--hover: #bebebe;
+
+	--icon-primary-color: #231815;
+	--icon-secondary-color: #ffffff;
+	--icon--hover: #808080;
+
+	--normal-bgcolor: #231815;
+	--normal-bgcolor--hover: #252525;
+
+	--primary-bgcolor: #000000;
+	--primary-bgcolor--hover: #252525;
+
+	--secondary-bgcolor: #ffffff;
+	--secondary-bgcolor--hover: #ffffff;
+
+	--accent-bgcolor: #e45302;
+	--accent-bgcolor--hover: #ff5e00;
+
+	--main-bgcolor: #ffffff;
+	--barinfo-bgcolor: #231815;
+	--footer-bgcolor: #0c0c0c;
+
+	--linkdetailswrapper-bgcolor: #f5f5f5b3;
+
+	--border-color: #f5f5f5;
+}

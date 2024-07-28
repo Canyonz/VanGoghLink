@@ -1,0 +1,39 @@
+.buttonUI
+  display: block
+  font: inherit
+  transition: color 0.25s,background-color 0.25s
+  border: none
+  outline: none
+  cursor: pointer
+
+  &.primary
+    color: var(--primary-color)
+
+  &.secondary
+    color: var(--secondary-color)
+
+  &.filled
+    &.dark
+      background-color: var(--primary-bgcolor)
+
+    &.rounded
+      border-radius: 100px
+
+  &.clear
+    background-color: transparent
+
+@media screen and (min-width: 770px)
+  .buttonUI
+
+    &.primary
+      &:hover
+        color: var(--primary-color--hover)
+
+    &.secondary
+      &:hover
+        color: var(--secondary-color--hover)
+
+    &.filled
+      &.dark
+        &:hover
+          background-color: var(--primary-bgcolor--hover)

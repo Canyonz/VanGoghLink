@@ -1,0 +1,71 @@
+.card
+  cursor: pointer
+
+  .imageWrapper
+    position: relative
+
+    .promotion
+      position: absolute
+      top: 10px
+      left: 10px
+      padding: 2px 15px
+      border-radius: 100px
+      z-index: 10
+
+    .imageWpar
+      overflow: hidden
+      border-radius: 20px
+
+      .image
+        border-radius: 20px
+        transition: transform 0.5s
+
+    .linkDetailsWrapper
+      display: none
+      position: absolute
+      left: 0
+      right: 0
+      bottom: 0
+      padding: 20px 31px
+      background-color: var(--linkdetailswrapper-bgcolor)
+      border-radius: 0 0 20px 20px
+      opacity: 0
+      transition: opacity 0.25s
+
+      .linkDetails
+        display: block
+
+  .info
+    padding-top: 20px
+
+    .price
+      display: flex
+      align-items: center
+      gap: 10px
+      margin-top: 12px
+
+@media screen and (min-width: 770px)
+  .card
+    .imageWrapper
+      .promotion
+        padding: 8px 40px
+
+      .linkDetailsWrapper
+        display: inherit
+
+      &:hover
+        .image
+          transform: scale(1.15)
+    .info
+      .price
+        gap: 16px
+
+    &:hover
+      .linkDetailsWrapper
+        opacity: 1
+
+@media screen and (min-width: 1600px)
+  .card
+
+@media screen and (min-width: 1900px)
+  .card

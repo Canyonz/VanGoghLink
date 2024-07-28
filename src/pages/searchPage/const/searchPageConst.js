@@ -1,0 +1,58 @@
+export const catalogList = [
+	{
+		id: 1,
+		name: "Встраиваемый светильник Markt",
+		image: "./catalog/product.jpg",
+		price: [3490, 5060],
+		isPromotion: true,
+	},
+	{
+		id: 2,
+		name: "Линейный светильник ARG",
+		image: "./catalog/product1.jpg",
+		price: [6700],
+		isPromotion: false,
+	},
+	{
+		id: 3,
+		name: "Светодиодный светильник",
+		image: "./catalog/product2.jpg",
+		price: [5060, 6060],
+		isPromotion: true,
+	},
+	{
+		id: 4,
+		name: "Встраиваемый светильник Markt",
+		image: "./catalog/product.jpg",
+		price: [3490],
+		isPromotion: false,
+	},
+	{
+		id: 5,
+		name: "Линейный светильник ARG",
+		image: "./catalog/product1.jpg",
+		price: [6700, 6060],
+		isPromotion: true,
+	},
+	{
+		id: 6,
+		name: "Светодиодный светильник",
+		image: "./catalog/product2.jpg",
+		price: [5060],
+		isPromotion: false,
+	},
+	{
+		id: 7,
+		name: "Встраиваемый светильник Markt",
+		image: "./catalog/product.jpg",
+		price: [3490, 6060],
+		isPromotion: true,
+	},
+	{
+		id: 8,
+		name: "Линейный светильник ARG",
+		image: "./catalog/product1.jpg",
+		price: [6700],
+		isPromotion: false,
+	},
+];

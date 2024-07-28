@@ -1,0 +1,43 @@
+.basket
+  display: none
+
+  .basketIconWrapper
+    position: relative
+
+    .basketIcon
+      fill: none
+
+      path
+        transition: stroke 0.33s
+
+    .count
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      top: -4px
+      right: -9px
+      width: 18px
+      height: 18px
+      font-size: 12px
+      border-radius: 50%
+
+@media screen and (min-width: 770px)
+  .basket
+
+@media screen and (min-width: 1600px)
+  .basket
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 12px
+    padding: 8px 20px 8px 26px
+
+    &:hover
+      .basketIconWrapper
+        .basketIcon
+          path
+            stroke: #88ff00
+
+@media screen and (min-width: 1900px)
+  .basket

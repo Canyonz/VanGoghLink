@@ -1,0 +1,39 @@
+.headerSearch
+  display: none
+
+@media screen and (min-width: 1600px)
+  .headerSearch
+    display: block
+    padding: 9px
+    background-color: var(--normal-bgcolor)
+    border-radius: 100px
+
+    .input
+      display: none
+
+    .icon
+      transition: fill 0.25s
+      svg
+        fill: var(--icon-secondary-color)
+
+      &:hover
+        svg
+          fill: var(--icon--hover)
+
+@media screen and (min-width: 1900px)
+  .headerSearch
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 5px
+    max-width: 170px
+    padding: 9px 14px 9px 20px
+    background-color: transparent
+    border: 1px solid var(--border-color)
+
+    .input
+      display: inherit
+
+    .icon
+      svg
+        fill: inherit

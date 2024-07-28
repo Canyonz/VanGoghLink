@@ -1,0 +1,94 @@
+.linkUI
+  text-decoration: none
+  transition: color 0.25s, background-color 0.25s
+
+  &.primary
+    color: var(--primary-color)
+
+  &.secondary
+    color: var(--secondary-color)
+
+  &.third
+    color: var(--third-color)
+
+  &.minor
+    color: var(--minor-color)
+
+  &.filled
+    border-radius: 100px
+    padding: 13px 20px
+
+    &.dark
+      background-color: var(--normal-bgcolor)
+
+    &.light
+      background-color: var(--secondary-bgcolor)
+
+    &.accent
+      background-color: var(--accent-bgcolor)
+
+  &.clear
+
+  &.left
+    text-align: left
+
+  &.center
+    text-align: center
+
+  &.right
+    text-align: right
+
+  &.sm
+    font-size: 14px
+
+  &.md
+    font-size: 16px
+
+  &.lg
+    font-size: 18px
+
+  &.lighter
+    font-weight: 400
+
+  &.normal
+    font-weight: 600
+
+  &.bold
+    font-weight: 700
+
+  &.underline
+    text-decoration: underline
+
+@media screen and (min-width: 770px)
+  .linkUI
+    &.primary
+      &:hover
+        color: var(--primary-color--hover)
+
+    &.secondary
+      &:hover
+        color: var(--secondary-color--hover)
+
+    &.third
+      &:hover
+        color: var(--third-color--hover)
+
+    &.minor
+      &:hover
+        color: var(--minor-color--hover)
+
+    &.filled
+      &.dark
+        &:hover
+          background-color: var(--normal-bgcolor--hover)
+
+      &.light
+        &:hover
+          background-color: var(--secondary-bgcolor--hover)
+
+      &.accent
+        &:hover
+          background-color: var(--accent-bgcolor--hover)
+
+    &.sm
+      font-size: 16px

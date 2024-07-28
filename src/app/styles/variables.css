@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "Korataki";
+	src: url("../../shared/assets/fonts/Korataki/KoratakiRg-Regular.ttf");
+}
+
+:root {
+	--font-family-title: "Korataki", sans-serif;
+	--font-family-text: "Lato", sans-serif;
+	--font-family-captcha: "Roboto", sans-serif;
+
+	--font-weight-title: 400;
+	--font-size-title: 24px;
+	--font-height-title: 1.4em;
+	--font-title: var(--font-weight-title) var(--font-size-title) / var(--font-height-title) var(--font-family-title);
+
+	--font-weight-text: 400;
+	--font-size-text: 16px;
+	--font-height-text: 1.4rem;
+	--font-text: var(--font-weight-text) var(--font-size-text) / var(--font-height-text) var(--font-family-text);
+
+	--font-weight-captcha: 400;
+	--font-size-captcha: 16px;
+	--font-height-captcha: 1.4em;
+	--font-captcha: var(--font-weight-captcha) var(--font-size-captcha) / var(--font-height-captcha) var(--font-family-captcha);
+}

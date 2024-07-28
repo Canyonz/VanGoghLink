@@ -1,0 +1,87 @@
+.textUI
+  line-height: 1.4em
+  &.primary
+    color: var(--primary-color)
+
+  &.secondary
+    color: var(--secondary-color)
+
+  &.third
+    color: var(--third-color)
+
+  &.accent
+    color: var(--accent-color)
+
+  &.minor
+    color: var(--minor-color)
+
+  &.clear
+    background-color: transparent
+
+  &.dark
+    background-color: var(--normal-bgcolor)
+
+  &.light
+    background-color: var(--secondary-bgcolor)
+
+  &.left
+    text-align: left
+
+  &.center
+    text-align: center
+
+  &.right
+    text-align: right
+
+  &.line-through
+    text-decoration: line-through
+
+  &:not(h1,h2,h3)
+    &.sm
+      font-size: 14px
+
+    &.md
+      font-size: 16px
+
+    &.lg
+      font-size: 18px
+
+    &.lighter
+      font-weight: 400
+
+    &.normal
+      font-weight: 600
+
+    &.bold
+      font-weight: 600
+
+h1,
+h2,
+h3
+  font: var(--font-title)
+
+@media screen and (min-width: 770px)
+  h2
+    font-size: 32px
+
+  .textUI
+    &:not(h1,h2,h3)
+      &.sm
+        font-size: 16px
+
+      &.md
+        font-size: 18px
+
+      &.lg
+        font-size: 22px
+
+      &.bold
+        font-weight: 700
+
+@media screen and (min-width: 1600px)
+  h2
+    font-size: 40px
+
+@media screen and (min-width: 1900px)
+  h2
+    font-size: 44px
